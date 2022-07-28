@@ -1,8 +1,3 @@
-body
-{
-position:relative;
-}
-
 .wheel {
   border: 2px solid black;
   border-radius: 50%;
@@ -16,8 +11,7 @@ position:relative;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  left:40%;
-  top:40%;
+  margin:50px auto;
 }
 
 .line {
